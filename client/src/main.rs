@@ -44,7 +44,7 @@ impl Component for App {
     type Properties = ();
 
     fn create(_ctx: &Context<Self>) -> Self {
-      log::info!("it's easier to see it here - https://github.com/ximidas/dotcom");
+      log::info!("it's easier to see it here - https://github.com/medk0v/dotcom");
       let window = window().expect("Failed to get window object");
       let location: Location = window.location();
 
@@ -76,51 +76,51 @@ impl Component for App {
                       <Switch<Route> render={switch} />
                   </main>
                   <div class="overlay__btns">
-          <a href="https://github.com/ximidas" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="github fab fa-github"></i>
             </button>
           </a>
-          <a href="https://reddit.com/user/ximidas" target="_blank" rel="noopener noreferrer">
+          <a href="https://reddit.com/user/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="reddit fab fa-reddit"></i>
             </button>
           </a>
-          <a href="https://twitter.com/ximidas" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="twitter fab fa-twitter"></i>
             </button>
           </a>
-          <a href="https://www.youtube.com/@XIMIDAS" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@medk0v271" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="youtube fa-brands fa-youtube"></i>
             </button>
           </a>
-          <a href="https://t.me/ximidas_blog" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="telegram fa fa-telegram" aria-hidden="true"></i>
             </button>
           </a>
-          <a href="https://www.instagram.com/ximidascom" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="instagram fab fa-instagram"></i>
             </button>
           </a>
-          <a href="https://www.linkedin.com/in/ximidas" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <i class="linkedin fab fa-linkedin"></i>
             </button>
           </a>
-          <a href="https://huggingface.co/ximidas" target="_blank" rel="noopener noreferrer">
+          <a href="https://huggingface.co/medk0v" target="_blank" rel="noopener noreferrer">
             <button class="overlay__btn">
               <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="15px" alt="Hugging Face logo" />
             </button>
           </a>
         </div>
         <div>
-          <a href="mailto:ximidas@ximidas.com" class="footer-mail">{ "ximidas@ximidas.com" }</a>
+          <a href="mailto:dmitry@medk0v.com" class="footer-mail">{ "dmitry@medk0v.com" }</a>
           <p class="footer-text">
-          { "The client-side of this website was built using "} <a href="https://yew.rs" target="_blank">{"Yew"}</a>{", while the server-side was built using "}<a href="https://actix.rs" target="_blank">{"Actix Web"}</a>{". The source code of this project can be viewed "}<a href="https://github.com/ximidas/dotcom" target="_blank">{"here"}</a>{"."}</p>
+          { "The client-side of this website was built using "} <a href="https://yew.rs" target="_blank">{"Yew"}</a>{", while the server-side was built using "}<a href="https://actix.rs" target="_blank">{"Actix Web"}</a>{". The source code of this project can be viewed "}<a href="https://github.com/medk0v/dotcom" target="_blank">{"here"}</a>{"."}</p>
         </div>
               </BrowserRouter>
           }

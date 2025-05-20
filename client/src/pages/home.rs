@@ -19,7 +19,7 @@ impl Component for Home {
             <div class="overlay">
                 <TypedEffect />
                 <div class="overlay__inner">
-                    <img src="ximidas.png" alt="ximidas" width="150" height="150" class="zoom-tilt" />
+                    <img src="medk0v.png" alt="medk0v" width="150" height="150" class="zoom-tilt" />
                     <h1 class="overlay__title">
                         <span id="element"></span>
                     </h1>
