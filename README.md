@@ -1,4 +1,4 @@
-This is the source code of my personal website [medk0v.com](https://medk0v.com/)
+This is the source code of my personal website [medk0v.com](https://medk0v.com/) (which is not hosted anymore)
 .
 
 ## Structure
